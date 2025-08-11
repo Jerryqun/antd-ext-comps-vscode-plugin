@@ -10,22 +10,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-   "languages": [
-    {
-      "id": "typescriptreact",
-      "extensions": [".tsx"],
-      "aliases": ["TypeScript React", "typescriptreact"]
-    },
-    {
-      "id": "javascriptreact",
-      "extensions": [".jsx"],
-      "aliases": ["JavaScript React", "javascriptreact"]
-    }
-  ],
-  "commands": [
+    "commands": [
       {
         "command": "antd-ext-comps-vscode-plugin.helloWorld",
         "title": "Hello World"

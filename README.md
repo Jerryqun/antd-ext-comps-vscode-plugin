@@ -20,11 +20,3 @@ You can install this extension from the [Visual Studio Marketplace](https://mark
 3. Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) to open the Command Palette.
 4. Type `Extensions: Install from VSIX...` and select it.
 5. Choose the downloaded `.vsix` file to install.
-
-## Usage
-
-1. Open a `.tsx` or `.jsx` file in VSCode.
-2. Type `ext_f` anywhere in the file.
-3. The snippet suggestion will appear automatically.
-4. Select the suggestion and press `Enter`.
-5. A React functional component TSX snippet will be inserted.
