@@ -19,6 +19,9 @@
       }
     ]
   },
+    "activationEvents": [
+    "*"
+  ],
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
     "compile": "tsc -p ./",
