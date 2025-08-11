@@ -1,0 +1,54 @@
+{
+  "name": "antd-ext-comps-vscode-plugin",
+  "publisher": "zcq",
+  "displayName": "antd-ext-comps-vscode-plugin",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+   "languages": [
+    {
+      "id": "typescriptreact",
+      "extensions": [".tsx"],
+      "aliases": ["TypeScript React", "typescriptreact"]
+    },
+    {
+      "id": "javascriptreact",
+      "extensions": [".jsx"],
+      "aliases": ["JavaScript React", "javascriptreact"]
+    }
+  ],
+  "commands": [
+      {
+        "command": "antd-ext-comps-vscode-plugin.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "pnpm run compile && pnpm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
