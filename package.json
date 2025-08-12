@@ -1,7 +1,7 @@
 {
-  "name": "antd-ext-comps-vscode-plugin",
+  "name": "antd-ext-comps-snippets",
   "publisher": "zcq",
-  "displayName": "antd-ext-comps-vscode-plugin",
+  "displayName": "antd-ext-comps-snippets",
   "description": "",
   "version": "0.0.1",
   "engines": {
